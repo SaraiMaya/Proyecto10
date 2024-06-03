@@ -100,6 +100,12 @@ i {
     }
 }
 
+.card:hover{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+    transform: scale(1.06);
+    transition: all 1s;
+}
+
 @media (width <= 400px) { /* Agregue media queries para las cards fueran resposive */
     main {
         grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
